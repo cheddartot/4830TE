@@ -1,0 +1,23 @@
+<html>
+<head>
+<!-- stylesheet stuff in here -->
+<style>
+
+</style>
+</head>
+
+<body>
+<header>
+<h1> Hello World </h1>
+</header>
+
+
+<body>
+	<h1>User Input</h1>
+</body>
+
+<footer>
+<!-- footer info here if you care -->
+</footer>
+</body>
+</html>

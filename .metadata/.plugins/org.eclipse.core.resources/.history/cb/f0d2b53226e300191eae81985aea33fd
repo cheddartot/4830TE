@@ -1,0 +1,28 @@
+<html>
+<head>
+<!-- stylesheet stuff in here -->
+<style>
+
+</style>
+</head>
+
+<body>
+<header>
+<h1> Hello World </h1>
+</header>
+
+
+<body>
+	<h1>User Input</h1>
+	<form action="SimpleFormInsert" method="POST">
+	
+		test val: <input type="text" name="test"> <br />
+		<input type="submit" value="Submit" />
+	</form>
+</body>
+
+<footer>
+<!-- footer info here if you care -->
+</footer>
+</body>
+</html>
