@@ -65,7 +65,7 @@ public class InsertSchantz extends HttpServlet {
             "  <li><b>Guest artist</b>: " + guestArtist + "\n" + //
             "</ul>\n");
 
-      out.println("<a href=simpleFormSearch.html>Sort by title!</a> <br>");
+      out.println("<a href=simpleFormSearch.html>Search by title!</a> <br>");
       out.println("</body></html>");
    }
 
