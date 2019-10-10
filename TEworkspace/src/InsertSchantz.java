@@ -1,6 +1,6 @@
 
 /**
- * @file SimpleFormInsert.java
+ * @file InsertSchantz.java
  */
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/SimpleFormInsert")
+@WebServlet("/InsertSchantz")
 public class InsertSchantz extends HttpServlet {
    private static final long serialVersionUID = 1L;
 
@@ -22,9 +22,9 @@ public class InsertSchantz extends HttpServlet {
    }
 
    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      String title1 = request.getParameter("userName");
-      String album = request.getParameter("email");
-      String artist = request.getParameter("phone");
+      String title1 = request.getParameter("title");
+      String album = request.getParameter("album");
+      String artist = request.getParameter("artist");
       String year = request.getParameter("year");
       String guestArtist = request.getParameter("guestArtist");
 
@@ -65,7 +65,7 @@ public class InsertSchantz extends HttpServlet {
             "  <li><b>Guest artist</b>: " + guestArtist + "\n" + //
             "</ul>\n");
 
-      out.println("<a href=/webproject/simpleFormSearch.html>Search Data</a> <br>");
+      out.println("<a href=simpleFormSearch.html>Sort by title!</a> <br>");
       out.println("</body></html>");
    }
 
